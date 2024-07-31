@@ -21,6 +21,8 @@ This is a custom theme for Jellyfin mediaserver created using CSS overrides. Not
 
 <br />
 
+<a href='https://ko-fi.com/mentaledge' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+
 # How to
 To use the theme copy paste one of the presets, or follow the instructions to create a custom combination, paste that into "Dashboard>General>Custom CSS" and click save, it will apply immediately server-wide to all users on top of any theme they may be using. To remove the theme, clear the "Custom CSS" field and then click save.
 
@@ -256,7 +258,7 @@ OR
 
 Additional eye candy. Make items glow on hover, make some UI elements glassy see-through. Pan animation animates the backdrop with a slow pan. The last one is a hacky way to turn the cover art into a backdrop on mobile, as it was removed in 10.7.0.
 
-Known issues: Pan-animation can cause flickering on chromium based browsers when the backdrop is also modified. Glassy is not supported by firefox, unless some flags are set to enable it (though even this is currently broken in firefox).
+Known issues: Pan-animation can cause flickering on chromium based browsers when the backdrop is also modified.
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/hoverglow.css');
